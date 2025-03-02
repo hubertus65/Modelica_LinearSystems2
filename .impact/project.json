@@ -1,0 +1,72 @@
+{
+  "name": "Modelica_linearsystems2",
+  "format": "1.0.0",
+  "dependencies": [],
+  "content": [
+    {
+      "relpath": "LinearSystems2TestConversion3.mo",
+      "contentType": "MODELICA",
+      "name": "LinearSystems2TestConversion3",
+      "defaultDisabled": false,
+      "id": "0ce83ddaee3a4591919683d7d41b289d"
+    },
+    {
+      "relpath": "ObsoleteLinearSystems2.mo",
+      "contentType": "MODELICA",
+      "name": "ObsoleteLinearSystems2",
+      "defaultDisabled": false,
+      "id": "a409c5cab1b1429089b9b090b61487a8"
+    },
+    {
+      "relpath": "LinearSystems2Test",
+      "contentType": "MODELICA",
+      "name": "LinearSystems2Test",
+      "defaultDisabled": false,
+      "id": "ec613b38730241cf8aa6fe5451cb3e97"
+    },
+    {
+      "relpath": "Modelica_LinearSystems2",
+      "contentType": "MODELICA",
+      "name": "Modelica_LinearSystems2",
+      "defaultDisabled": false,
+      "id": "5bc71b96271e4306af5ccf270ffc2209"
+    },
+    {
+      "relpath": "Resources/Views",
+      "contentType": "VIEWS",
+      "defaultDisabled": false,
+      "id": "9b43597cd6514d97b29c5fb44cf74c36"
+    },
+    {
+      "relpath": "Resources/Favorites",
+      "contentType": "FAVORITES",
+      "defaultDisabled": false,
+      "id": "41d866bee41c4dfaba4708b53ac65c8e"
+    },
+    {
+      "relpath": "Resources/CustomFunctions",
+      "contentType": "CUSTOM_FUNCTIONS",
+      "defaultDisabled": false,
+      "id": "7d16bd0f58ba41a7b8bfe4add8712248"
+    },
+    {
+      "relpath": "Resources/Custom",
+      "contentType": "GENERIC",
+      "defaultDisabled": false,
+      "id": "991b06382e1c46ccb4e5a15f1a9c494c"
+    },
+    {
+      "relpath": "ReferenceResults",
+      "contentType": "REFERENCE_RESULTS",
+      "defaultDisabled": false,
+      "id": "b7fa4c41bd3041aa849f8a95ebf98757"
+    },
+    {
+      "relpath": "Resources/ExperimentDefinitions",
+      "contentType": "EXPERIMENT_DEFINITIONS",
+      "defaultDisabled": false,
+      "id": "c0dcf42dd30d4e3d9c25fff63d64c86b"
+    }
+  ],
+  "executionOptions": []
+}
