@@ -38,7 +38,7 @@ model EKF "Extended Kalman filter"
     "Process noise weight matrix (usually identity or input matrix)";
   final parameter Real Q2[size(x_est_init,1),size(x_est_init,1)]=G*Q*transpose(G)
     "Appropriately weighted process noise covariance matrix";
-  parameter Real R[:,size(R,1)] "Covariance matrix of the measurement noise";
+  parameter Real[:,size(R,1)] R "Covariance matrix of the measurement noise";
   parameter Real M_init[:,:] = identity(size(x_est_init,1))
     "Initial value of the Riccati matrix M";
   parameter Integer nu = 1 "Number of system inputs";

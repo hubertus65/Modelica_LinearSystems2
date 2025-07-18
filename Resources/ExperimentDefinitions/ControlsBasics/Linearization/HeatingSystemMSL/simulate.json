@@ -1,0 +1,54 @@
+{
+  "version" : "2",
+  "id" : "4a339766-a6c8-4b09-98dc-9d201aae798a",
+  "experiment" : {
+    "base" : {
+      "analysis" : {
+        "variableFilters" : [ ],
+        "selectedType" : "dynamic",
+        "choices" : [ {
+          "type" : "dynamic",
+          "parameters" : {
+            "final_time" : 6000,
+            "start_time" : 0
+          },
+          "simulationOptions" : {
+            "dynamic_diagnostics" : false,
+            "ncp" : 500
+          },
+          "solverOptions" : {
+            "store_event_points" : true
+          },
+          "compilerOptions" : {
+            "generate_html_diagnostics" : false,
+            "include_protected_variables" : false
+          },
+          "runtimeOptions" : { }
+        } ],
+        "expansion" : {
+          "discreteAlgorithm" : {
+            "noOfSamples" : 0,
+            "seed" : 0
+          },
+          "continuousAlgorithm" : {
+            "type" : "SOBOL",
+            "noOfSamples" : 10,
+            "seed" : 0
+          }
+        }
+      },
+      "modifiers" : {
+        "initializeFrom" : "",
+        "variables" : [ {
+          "name" : "burner.Q_flow",
+          "expression" : "1600"
+        } ]
+      }
+    }
+  },
+  "metadata" : {
+    "created" : "2025-07-14 21:11:43.050590548",
+    "lastModified" : "2025-07-15T19:26:09.487664754Z",
+    "name" : "Simulate"
+  }
+}

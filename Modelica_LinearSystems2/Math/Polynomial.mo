@@ -556,7 +556,7 @@ This package contains operators for subtraction of Polynomial data records.
     import Modelica.Utilities.Streams.print;
 
     input Polynomial p;
-    input Integer n(min=0) = 1 "p^n shall be computed";
+    input Integer n(min=0) "p^n shall be computed";
     output Polynomial result(redeclare Real c[max((size(p.c, 1) - 1)*n + 1, 1)])
       "= p^n";
   protected

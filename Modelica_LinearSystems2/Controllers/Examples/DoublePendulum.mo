@@ -45,8 +45,7 @@ equation
       __Dymola_NumberOfIntervals=2000,
       Tolerance=1e-005),
     Documentation(info="<html>
-<p>
-This example shows a control system with constant state feedback.
+<p>An issue with matrix sizees in MI, can probably be fixed.</p><p><br></p><p>This example shows a control system with constant state feedback.
 The system model of a crane trolley system is taken from [1]. The
 feedback matrix and the pre filter can be loaded from MATLAB files.
 <!-- The following text was commented by Tobolar (DLR) since the example
@@ -60,9 +59,9 @@ Examples.StateSpace.designCraneController</a>.
 
 <h4><a name=\"References\">References</a></h4>
 <dl>
-<dt>&nbsp;[1] F&ouml;llinger O.:</dt>
+<dt>&nbsp;[1] Föllinger O.:</dt>
 <dd> <strong>Regelungstechnik</strong>.
-     H&uuml;thig-Verlag.<br>&nbsp;</dd>
+     Hüthig-Verlag.<br>&nbsp;</dd>
 </dl>
 </html>"));
 end DoublePendulum;

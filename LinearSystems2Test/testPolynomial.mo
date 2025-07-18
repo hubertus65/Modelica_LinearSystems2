@@ -1,8 +1,8 @@
 within LinearSystems2Test;
-function testPolynomial "Various calls of polynomial record"
+block testPolynomial "Various calls of polynomial record"
   import Modelica_LinearSystems2.Math.Polynomial;
 
-  input String outputFile = "" "File to write test results";
+  input String outputFile = "results.txt" "File to write test results";
 
 protected
   Polynomial p01 = Polynomial({ 1, 4, 5});
@@ -38,6 +38,7 @@ protected
   Polynomial p32 = Polynomial({ 0, 0, 0, 1});
   Polynomial p33 = Polynomial({ 0, 0, 0,-1});
 algorithm
+when time >= 0.0 then
   Modelica.Utilities.Streams.print("p01 { 1, 4, 5} : " + String(p01), outputFile);
   Modelica.Utilities.Streams.print("p02 { 5, 4, 1} : " + String(p02), outputFile);
   Modelica.Utilities.Streams.print("p03 {-5, 1,-1} : " + String(p03), outputFile);
@@ -70,5 +71,5 @@ algorithm
   Modelica.Utilities.Streams.print("p31 { 0,-4, 0, 0}: " + String(p31), outputFile);
   Modelica.Utilities.Streams.print("p32 { 0, 0, 0, 1}: " + String(p32), outputFile);
   Modelica.Utilities.Streams.print("p33 { 0, 0, 0,-1}: " + String(p33), outputFile);
-
+end when;
 end testPolynomial;

@@ -52,8 +52,7 @@ equation
       color={0,0,127},
       smooth=Smooth.None));
   annotation ( Documentation(info="<html>
-<p>
-This example demonstrates the usage of the
+<p>The example workd in MI</p><p><br></p><p>This example demonstrates the usage of the
 <a href=\"modelica://Modelica_LinearSystems2.Controllers.Interpolator\">Interpolator</a>
 block. This block is used in multi-rate controllers to interpolate between two different
 sample rates. In this example, a sampled sine-signal is interpolated in different ways:

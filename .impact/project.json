@@ -1,15 +1,25 @@
 {
   "name": "Modelica_linearsystems2",
   "format": "1.0.0",
-  "dependencies": [],
-  "content": [
+  "dependencies": [
     {
-      "relpath": "LinearSystems2TestConversion3.mo",
-      "contentType": "MODELICA",
-      "name": "LinearSystems2TestConversion3",
-      "defaultDisabled": false,
-      "id": "0ce83ddaee3a4591919683d7d41b289d"
+      "name": "LinearizeExample",
+      "versionSpecifier": "1.0.0"
     },
+    {
+      "name": "LiquidCooling",
+      "versionSpecifier": "2.15.0+build.24"
+    },
+    {
+      "name": "Modelon",
+      "versionSpecifier": "5.0.0+build.23"
+    },
+    {
+      "name": "Modelica",
+      "versionSpecifier": "4.0.0"
+    }
+  ],
+  "content": [
     {
       "relpath": "ObsoleteLinearSystems2.mo",
       "contentType": "MODELICA",

@@ -142,13 +142,11 @@ equation
         "modelica://Modelica_LinearSystems2/Resources/Scripts/Dymola/Controllers/Examples/SimpleControlledDriver_plot.mos"
         "Simulate and Plot Results"),
     Documentation(info="<html>
-<p>
-This example demonstrates the control of a simple model
+<p>The only thing not workign in this example is the filter (translation error in MI, stack overflow). It works with Filter.FIR.</p><p><br></p><p>This example demonstrates the control of a simple model
 of a flexible drive system with a continuous or discrete
 P-PI cascade controller. Simulate for 3 s and plot
 </p>
-<blockquote><pre>
-ramp.y          (reference angle of loadInertia)
+<blockquote><pre>ramp.y          (reference angle of loadInertia)
 loadInertia.phi (angle of loadInertia)
 loadInertia.w   (speed of loadInertia)
 torque.tau      (motor torque)
@@ -185,7 +183,7 @@ time to determine the analog actuator (torque) signal, and
 component Noise to add uniformly distributed noise to
 the measurement signals.
 </p>
-<p>Within Dymola simulation tool the &quot;Commands / Simulate and Plot Results&quot;
+<p>Within Dymola simulation tool the \"Commands / Simulate and Plot Results\"
 selection plots the simulation result of either continuous or discrete controller.</p>
 <h4>Simulation results </h4>
 <p>

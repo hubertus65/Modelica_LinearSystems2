@@ -206,7 +206,7 @@ follow each other as above. An error occurs if this is not the case.
     import Modelica_LinearSystems2.TransferFunction;
 
     input TransferFunction tf "Transfer function";
-    input Integer k(min=0) = 1 "Integer exponent";
+    input Integer k(min=0) "Integer exponent";
     output TransferFunction result;
   algorithm
     result := (Polynomial(tf.n)^k)/(Polynomial(tf.d)^k);
